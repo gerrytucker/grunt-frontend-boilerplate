@@ -1,7 +1,7 @@
 module.exports = {
-    all: {
-        files: {
-            'dist/scripts/main.min.js': ['src/scripts/main.js']
-        }
+  all: {
+    files: {
+      'dist/app.min.js': ['src/scripts/app.js']
     }
+  }
 };
