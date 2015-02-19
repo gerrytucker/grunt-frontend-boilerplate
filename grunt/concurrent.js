@@ -6,7 +6,8 @@ module.exports = {
 
   // Dev tasks
   devFirst: [
-    'clean'
+    'clean',
+    'mkdir'
   ],
   devSecond: [
     'sass:dev',
@@ -16,7 +17,8 @@ module.exports = {
 
   // Production tasks
   prodFirst: [
-    'clean'
+    'clean',
+    'mkdir'
   ],
   prodSecond: [
     'sass:prod',
