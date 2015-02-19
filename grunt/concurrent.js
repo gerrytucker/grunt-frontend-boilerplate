@@ -6,22 +6,22 @@ module.exports = {
 
   // Dev tasks
   devFirst: [
-    'clean',
-    'jshint'
+    'clean'
   ],
   devSecond: [
     'sass:dev',
-    'uglify'
+    'uglify',
+    'copy'
   ],
 
   // Production tasks
   prodFirst: [
-    'clean',
-    'jshint'
+    'clean'
   ],
   prodSecond: [
     'sass:prod',
-    'uglify'
+    'uglify',
+    'copy'
   ],
 
   // Image tasks
